@@ -1,0 +1,3 @@
+# ALways Keep environment variables out of version control ~ Hiten :)
+node_modules
+.env
