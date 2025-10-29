@@ -1,3 +1,30 @@
-# ALways Keep environment variables out of version control ~ Hiten :)
-node_modules
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+frontend/dist/
+backend/dist/
+
+# Environment
 .env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
